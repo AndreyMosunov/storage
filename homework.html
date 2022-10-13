@@ -1,0 +1,161 @@
+<html>
+
+    <head>
+
+        <meta name="viewport"; content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet"; href="styles.css"; type="text/css"/>
+
+        <script
+        
+         src="https://cdn.tailwindcss.com">
+        
+        </script>        
+
+        <script src="script.js"> </script>
+ 
+    </head>
+
+    <body>
+    
+        <div class="box1 bg-gradient-to-r from-sky-600 to-indigo-100">
+             <div class="name underline decoration-dotted italic tracking-wide">Андрей Мосунов</div>
+             <a class="about underline decoration-double italic tracking-wide font-sans hover:font-serif"; href="#1">Обо мне</a>
+             <a class="activity underline decoration-double italic tracking-wide font-sans hover:font-serif"; href="#2">Моя деятельность</a>
+             <a class="calc underline decoration-double italic tracking-wide font-sans hover:font-serif"; href="#3">Калькулятор</a>
+             <a class="difficulties underline decoration-double italic tracking-wide font-sans hover:font-serif"; href="#4">Сложности</a>
+             <a class="mood underline decoration-double italic tracking-wide font-sans hover:font-serif"; href="#5">Настроение</a>
+             <a class="contacts underline decoration-double italic tracking-wide font-sans hover:font-serif"; href="#6">Контакты</a>
+         </div>
+
+         <div id="1"; class="name2 font-mono underline decoration-dashed underline underline-offset-8" >Меня зовут Андрей!</div>
+
+         <div class="text1 text-blue-600/[.80]">И я очень хочу научится программированию, потому что мне это жутко интересно</div>
+
+         <div class="text2 text-blue-600/[.80]">А еще я люблю старое доброе кино и семейный отдых</div>
+
+         <img src="foto.jpg"; class="img contrast-125 hover:contrast-150 drop-shadow-md hover:drop-shadow-xl saturate-50 hover:saturate-150 sepia hover:sepia-0">
+        
+         <div class="box2"></div>
+
+         <div id="2"; class="text3 underline decoration-solid underline underline-offset-8">Моя деятельность</div>
+
+         <div class="box3">
+                <div class="number1 brightness-200 hue-rotate-80">1</div>
+                <div class="text4 no-underline hover:underline">Работаю в сфере экономической безопасности</div>
+         </div>                  
+
+         <div class="box4">
+                 <div class="number1 brightness-200 hue-rotate-80">2</div>
+                 <div class="text4 no-underline hover:underline">Занимаюсь воспитанием двух детишек</div>
+         </div>
+
+         <div class="box5">
+                 <div class="number1 brightness-200 hue-rotate-80">3</div>
+                 <div class="text4 no-underline hover:underline">Люблю настольные игры в хорошей компании</div>
+         </div>
+
+         <div class="box6">
+                 <div class="number1 brightness-200 hue-rotate-80">4</div>
+                 <div class="text4 no-underline hover:underline">Перечитываю любимые книги</div>
+         </div>
+
+         <div class="box7">
+                 <div class="number1 brightness-200 hue-rotate-80">5</div>
+                 <div class="text4 no-underline hover:underline">Хожу в тренажерный зал с друзьями</div>
+         </div>
+
+         <div id="3"; class="calc2 underline underline-offset-8">Калькулятор</div>
+
+         <div class="text7 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Введите первое число</div>
+ 
+         <input type="number" class="first"/>
+                         
+         <div class="text8 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Выберите операцию</div>
+
+         <select id="select"; class="operator">
+                 <option value=""></option>
+                 <option value="+">+</option>
+                 <option value="-">-</option>
+                 <option value="*">*</option>
+                 <option value="/">/</option>
+         </select>
+
+         <div class="text9 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Ваш результат:</div>
+
+         <div class="text10 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Расчет не производился</div>
+
+         <div class="text11 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Введите второе число</div>
+
+         <input type="number" class="second">
+         
+         <button onclick="calculate()" class="tabl4 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Вычислить</button>
+                         
+         <div class="box8"></div>
+                             
+         <div id="4"; class="text13 underline underline-offset-8">Сложности</div>
+
+         <div class="box9">
+                 <div class="number4 blur-sm">?</div>
+                 <div class="text15 no-underline hover:underline">Не получалось наложить fixed-блок поверх картинки</div>
+         </div> 
+
+         <div class="box10">
+                 <div class="number4 blur-sm">?</div>
+                 <div class="text15 no-underline hover:underline">Не получалось создать изображение значка "VK"</div>
+         </div> 
+
+         <div class="box11">
+                 <div class="number4 blur-sm">?</div>
+                 <div class="text15 no-underline hover:underline">Не получалось создать в калькуляторе строку с выбором</div>
+         </div>
+
+         <div class="box12">
+                 <div class="number4 blur-sm">?</div>
+                 <div class="text15 no-underline hover:underline">Не получалось корректно подключить картинку</div>
+         </div>
+
+         <div class="box13">
+                 <div class="number4 blur-sm">?</div>
+                 <div class="text15 no-underline hover:underline">Не получалось корректно расположить текст внутри блоков</div>
+         </div>
+                        
+         <div id="5"; class="text14 underline underline-offset-8">Настроение</div>
+       
+         <img src="smajlik.gif"; class="img2 animate-bounce w-80 h-80">
+
+         <div class="box14 bg-gradient-to-r from-cyan-600 to-blue-200">
+                <div class="text22">
+                         <a href="https://vk.com/id284642274/"><img src="vk.png"; alt="ВК"; width="35px"; heyght="35px";class="text22"></a>
+                </div>
+         </div>
+
+         <div id="6"; class="text20">Андрей Мосунов</div>
+
+         <div class="text21">+7 905 008 6241</div>      
+                               
+         <div class="mask hidden">
+         
+             <div class="window">
+
+             <h2> Результат </h2>
+
+             <hr/>
+
+                <div class="result"> Основная часть </div>
+
+                <hr/>
+
+                <div class="finish">
+
+         <button onclick="hide ()"> Закрыть </button>
+
+                </div>
+ 
+              </div>       
+
+         </div>
+
+    </body>
+
+</html>
