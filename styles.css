@@ -1,0 +1,1010 @@
+
+.box1 {
+    position: fixed; 
+    z-index: 999;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box1 
+        {background:chartreuse;                
+         height: 130px                          
+        }
+    }
+
+    .name {
+    position: absolute;
+    width: 200px;
+    height: 29px;
+    left: 165px;
+    top: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;   
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .name 
+        {color: #0f13e9;
+         position: relative;       
+         left: 20px;
+         font-size: 36px                                
+        }
+    }
+
+    .about {
+    position: absolute;
+    width: 68px;
+    height: 19px;
+    left: 570px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .about
+        {color: #0f13e9;
+         position: absolute;       
+         left: 240px;
+         font-size: 24px;     
+         width: 185px;       
+        }
+}
+
+    .activity {
+    position: absolute;
+    width: 146px;
+    height: 19px;
+    left: 663px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .activity
+        {color: #0f13e9;
+         position: absolute;       
+         left: 380px;
+         font-size: 24px;     
+         width: 85px;       
+        }
+}
+
+    .calc {
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 835px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .calc
+        {color: #0f13e9;
+         position: absolute;       
+         left: 570px;
+         font-size: 24px;     
+         width: 85px;       
+        }
+}
+
+    .difficulties {
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    left: 961px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .difficulties
+        {color: #0f13e9;
+         position: absolute;       
+         left: 770px;
+         font-size: 24px;     
+         width: 85px;       
+        }
+}
+
+    .mood {
+    position: absolute;
+    width: 95px;
+    height: 19px;
+    left: 1077px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .mood
+        {color: #0f13e9;
+         position: absolute;       
+         left: 950px;
+         font-size: 24px;     
+         width: 85px;       
+        }
+}
+
+    .contacts {
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    left: 1198px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .contacts
+        {color: #0f13e9;
+         position: absolute;       
+         left: 1150px;
+         font-size: 24px;     
+         width: 85px;       
+        }
+}
+
+    .name2 {
+    position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 165px;
+    top: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    color: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .name2
+        {color: #0f13e9;
+         position: absolute;       
+         left: 20px;
+         font-size: 34px                      
+        }
+}
+
+    .text1 {
+    position: absolute;
+    width: 515px;
+    height: 58px;
+    left: 165px;
+    top: 289px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text1
+        {color: #0f13e9;
+         position: absolute;       
+         left: 20px;
+         font-size: 26px;     
+         width: 350;
+        }
+}
+
+    .text2 {
+    position: absolute;
+    width: 515px;
+    height: 58px;
+    left: 165px;
+    top: 392px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text2
+        {color: #0f13e9;
+         position: absolute;       
+         left: 20px;
+         font-size: 26px;     
+         width: 350px;    
+         top: 440px   
+        }
+}
+
+    .img {
+    position: absolute;
+    width: 565px;
+    height: 630px;
+    left: 710px;
+    top: 150px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .img
+        {position: absolute;       
+         left: 400px                      
+        }
+}
+
+    .box2 {
+    position: absolute;
+    width: 1440px;
+    height: 541px;
+    left: 0px;
+    top: 838px;
+    background: #F3FBFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box2
+        {background:chartreuse     
+        }
+}
+
+    .text3 {
+    position: absolute;
+    width: 339px;
+    height: 44px;
+    left: 165px;
+    top: 864px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text3
+        {color: #0f13e9;
+         position: absolute;       
+         left: 20px;
+         font-size: 36px                  
+        }
+}
+
+    .box3 {
+    position: absolute;
+    padding-left: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 289px;
+    left: 165px;
+    top: 934px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box3
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px                 
+        }
+}
+
+    .number1 {
+    width: 55px;
+    height: 190px;
+    left: 177px;
+    top: 934px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 160%;
+    color: #004C93;
+    padding-left: 15px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .number1
+        {height: 25;
+         font-size: 50px;
+         padding-left: 20px                 
+        }
+}
+
+    .text4 {
+    width: 175px;
+    height: 120px;
+    left: 177px;
+    top: 1101px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #2E4674;
+    padding-left: 10px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text4
+        {color: #0f13e9;
+         font-size: 30px;
+         line-height: 100%;
+         width: 1000px;
+         left: 1000px;
+         padding-left: 70px                                 
+        }
+}
+
+    .box4 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px;
+    height: 264px;
+    left: 393px;
+    top: 1078px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+    
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box4
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 1010px
+        }
+    }
+
+    .box5 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 621px;
+    top: 934px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box5
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 1090px
+        }
+    }
+
+    .box6 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 849px;
+    top: 1078px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box6
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 1170px
+        }
+    }
+
+    .box7 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 1077px;
+    top: 934px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box7
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 1250px
+        }
+    }
+
+    .calc2 {
+    position: absolute;
+    width: 237px;
+    height: 44px;
+    left: 165px;
+    top: 1406px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .calc2
+        {left: 20px
+        }
+    }
+
+    .text7 {
+    position: absolute;
+    width: 151px;
+    height: 22px;
+    left: 165px;
+    top: 1480px;            
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+    }
+
+    .first {
+    box-sizing: border-box;
+    position: absolute;
+    width: 555px;
+    height: 32px;
+    left: 165px;
+    top: 1507px;
+    border: 1px solid #000000;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .tabl1
+        {background: rgb(212, 205, 205)              
+        }
+    }
+    
+    .text8 {
+    position: absolute;
+    width: 138px;
+    height: 22px;
+    left: 165px;
+    top: 1568px;            
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+    }
+
+    .operator {
+    box-sizing: border-box;
+    position: absolute;
+    width: 555px;
+    height: 32px;
+    left: 165px;
+    top: 1595px;
+    border: 1px solid #000000;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .tabl2
+        {background: rgb(212, 205, 205) 
+        }
+    }
+
+    .text9 {
+    position: absolute;
+    width: 100px;
+    height: 22px;
+    left: 849px;
+    top: 1480px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text9
+        {color: #0f13e9;
+         left: 750;
+         font-size: 24px;
+         width: 180;
+        }
+    }
+
+    .text10 {
+    position: absolute;
+    width: 163px;
+    height: 22px;
+    left: 849px;
+    top: 1512px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text10
+        {color: #0f13e9;
+         left: 750;
+         font-size: 24px;
+         width: 300
+        }
+    }
+
+    .text11 {
+    position: absolute;
+    width: 150px;
+    height: 22px;
+    left: 165px;
+    top: 1656px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+    }
+
+    .second {
+    box-sizing: border-box;
+    position: absolute;
+    width: 555px;
+    height: 32px;
+    left: 165px;
+    top: 1683px;
+    border: 1px solid #000000;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .tabl3
+        {background: rgb(212, 205, 205) 
+        }
+    }
+
+    .tabl4 {
+    position: absolute;
+    width: 168px;
+    height: 50px;
+    left: 165px;
+    top: 1754px;
+    background: #004C93;
+    border-radius: 5px;
+    }
+
+      @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .tabl4
+        {background:chartreuse
+        }
+    }
+
+    .text12 {
+    position: absolute;
+    width: 74px;
+    height: 22px;
+    left: 212px;
+    top: 1768px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text12
+        {color: black;
+         font-size: 20;
+         left: 200px
+        }
+    }
+
+    .box8 {
+    position: absolute;
+    width: 1444px;
+    height: 539px;
+    left: -5px;
+    top: 1854px;
+    background: #F1F9FE;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box8
+        {background:chartreuse   
+        }
+}
+
+    .text13 {
+    position: absolute;
+    width: 209px;
+    height: 44px;
+    left: 165px;
+    top: 1886px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text13
+        {left: 20px
+        }
+    }
+
+    .text14 {
+    position: absolute;
+    width: 220px;
+    height: 44px;
+    left: 165px;
+    top: 2446px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text14
+        {left: 20px
+        }
+    }
+
+    .img2 {
+    position: absolute;
+    width: 600px;
+    height: 567px;
+    left: 415px;
+    top: 2500px;
+    background: url(image.png);
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .img2
+        {left: 250px
+        }
+    }
+
+    .box9 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 165px;
+    top: 1969px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box9
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 1969px
+        }
+    }
+
+    .number4 {
+    width: 54.69px;
+    height: 120px;
+    left: 238px;
+    top: 1969px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 100%;
+    color: #004C93;
+    padding-left: 60px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .number4
+        {height: 10;
+         font-size: 50px;
+         padding-left: 20px                 
+        }
+}
+    
+    .text15 {           
+    width: 175px;
+    height: 120px;
+    left: 178px;
+    top: 2113px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #2E4674;
+    padding-left: 15px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text15
+        {color: #0f13e9;
+         font-size: 30px;
+         line-height: 100%;
+         width: 1000px;
+         left: 1000px;
+         padding-left: 70px                                 
+        }
+}
+
+    .box10 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 392px;
+    top: 2101px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box10
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 2050px
+        }
+    }
+
+    .box11 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 620px;
+    top: 1974px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box11
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 2130px
+        }
+    }
+
+    .box12 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 848px;
+    top: 2106px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box12
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 2210px
+        }
+    }
+
+    .box13 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 1076px;
+    top: 1957px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box13
+        {color: #0f13e9;
+         background: rgb(212, 205, 205);
+         left: 20px;
+         font-size: 22px;     
+         height: 70px;
+         width: 1260px;
+         top: 2290px
+        }
+    }
+    
+    .box14 {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 3140px;
+    background: #004C93;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .box14
+        {background:chartreuse    
+        }
+
+}
+    .text20 {
+    position: absolute;
+    width: 170px;
+    height: 29px;
+    left: 165px;
+    top: 3175px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text20
+        {font-size: 24px;
+         color: #0f13e9;
+         width: 300px;
+        }
+    }
+
+    .text21 {
+    position: absolute;
+    width: 128px;
+    height: 19px;
+    left: 1084px;
+    top: 3180px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+    @media only screen and (max-width: 390px) {/*iphone 12 pro*/
+        .text21
+        {font-size: 20px;
+         color: #0f13e9;
+         width: 150px;
+        }
+    }
+    
+    .text22 {
+    position: absolute;
+    left: 86%;
+    right: 12%;
+    top: 33%;
+    bottom: 40%;
+    color: #004C93;
+    }
+
+    .mask {
+    position:fixed;
+    z-index: 9999;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.25)
+    }
+    
+    .window {
+    width: 25%;
+    margin:auto;
+    margin-top:50px;
+    padding:10 px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    }
+
+    .result {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px
+    }
+
+    .finish {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .finish>button {
+    color:#FFFFFF;
+    border: none;
+    background: #0288d1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    cursor:pointer
+    }
+ 
+    .finish>button:hover {
+    background-color: blue
+    }
+
+    .hidden {
+    display: none
+    }
+
+
+    
