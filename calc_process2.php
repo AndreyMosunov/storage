@@ -5,7 +5,7 @@
         die ("Связь не установлена:" . mysqli_connect_error());
         }
   
-        $result
+        $result;
         
         function calculate() {
 
