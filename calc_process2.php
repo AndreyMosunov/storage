@@ -5,8 +5,9 @@
         die ("Связь не установлена:" . mysqli_connect_error());
         }
   
+        $result
         
-     function calculate() {
+        function calculate() {
 
         $num1=$_POST['firstnumber'];
         $num2=$_POST['secondnumber'];
@@ -38,12 +39,12 @@
  
 <?php
 
-        $query = mysqli_query ($connection, "INSERT into calc (operand1, operation, operand2, result) VALUES ('".$_REQUEST["firstnumber"]."', '".$_REQUEST["operation"]."', '".$_REQUEST["secondnumber"]."', $result)");
+        $query = mysqli_query ($connection, "INSERT into calc (operand1, operation, operand2, result) VALUES ('".$_REQUEST["firstnumber"]."', '".$_REQUEST["operation"]."', '".$_REQUEST["secondnumber"]."','".$result."')");
       
         $query2 = mysqli_query ($connection, "SELECT * from calc");
 
         $calc = [];
-        while ($row = mysqli_fetch_assoc ($query,$query2)) {
+        while ($row = mysqli_fetch_assoc ($query2)) {
         $calc[] = $row;
         }
                
