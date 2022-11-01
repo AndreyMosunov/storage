@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Калькулятор</title>
+        <script>
+           function calcul() {
+              let numberfiled1 = document.querySelector("#firstnumber");
+              let number1 = numberfiled1.value;
+           
+              fetch ("hi.php?firstnumber=" + number1)
+                  .then(Response => Response.text)
+                  .then(textString => {
+                    
+                   let resultfield = document.querySelector (".result")
+                   resultfield.innerHTML = "Результат:" + textString
+                  })
+
+              let operfiled1 = document.querySelector("#operation");
+              let oper = numberfiled1.value;
+           
+              fetch ("hi.php?operation=" + oper)
+                  .then(Response => Response.text)
+                  .then(textString => {
+                   let resultfield = document.querySelector (".result")
+                   resultfield.innerHTML = "Результат:" + textString
+                  })
+
+              let numberfiled2 = document.querySelector("#secondnumber");
+              let number2 = numberfiled1.value;
+           
+              fetch ("hi.php?secondnumber=" + number2)
+                  .then(Response => Response.text)
+                  .then(textString => {
+
+                   let resultfield = document.querySelector (".result")
+                   resultfield.innerHTML = "Результат:" + textString
+                  })
+    }
+
+        </script>
+    </head>
+        <body>
+                
+                Введите первое число:<input type="number" name="firstnumber" id="firstnumber" required> <br>
+                <div>Выберите операцию:<div>
+                <select name = "operation" id="operation">
+                    <option value=""></option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select> <br>
+                Введите второе число:<input type="number" name="secondnumber" id="secondnumber" required> <br>
+                <button onclick="calcul();"> Вычислить </button>        
+                   <div class="result"> </div>
+        </body>
+</html>
