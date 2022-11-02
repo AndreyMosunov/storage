@@ -14,8 +14,8 @@
                          let numberfiled2 = document.querySelector("#secondnumber");
                          let number2 = numberfiled2.value;
                                       
-                         fetch ("hi.php?firstnumber=${number1}&operation=${oper}&secondnumber=${number2")
-                             .then(Response => Response.text)
+                         fetch ("hi.php?firstnumber=${number1}&operation=${oper}&secondnumber=${number2}")
+                             .then(Response => Response.text())
                              .then(textString => {
 
                          let resultfield = document.querySelector (".result");

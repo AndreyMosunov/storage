@@ -7,10 +7,10 @@
   
         function calculate() {
 
-        $num1=$_POST['firstnumber'];
-        $num2=$_POST['secondnumber'];
-
-        switch ($_POST['operation']) {
+        $num1=$_REQUEST['firstnumber'];
+        $num2=$_REQUEST['secondnumber'];
+        
+        switch ($_REQUEST['operation']) {
             case "+":
             $result=$num1+$num2;
             return $result;
