@@ -28,13 +28,12 @@
             return $result;
             break;
             default:
-            echo "invalid operation";
+            echo "неправильная операция";
         }
         }
-            echo "Результат:".calculate();
+            echo calculate();
         ?>
-            <br> <a href="index.php">Назад</a>
- 
+        
 <?php
 
         mysqli_query ($connection, "INSERT into calc (operand1, operation, operand2, result) VALUES ('".$_REQUEST["firstnumber"]."', '".$_REQUEST["operation"]."', '".$_REQUEST["secondnumber"]."','".calculate ()."')");
