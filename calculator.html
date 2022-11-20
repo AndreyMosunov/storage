@@ -1,0 +1,73 @@
+ <html>
+
+     <head>
+         
+         <script>
+ 
+             function calculate() {
+                
+             let element_input = document.querySelector (".first");
+             let first = +element_input.value
+            
+             let element_input2 = document.querySelector (".second");
+             let second = +element_input2.value
+   
+             let element_input3 = document.querySelector (".operator");
+             let operator = element_input3.value
+   
+             if (first, second, operator==="+") {
+             let element_result = document.querySelector (".result");
+             element_result.innerHTML = +first+second
+             }
+   
+             if (first, second, operator==="-") {
+             let element_result = document.querySelector (".result");
+             element_result.innerHTML = first-second
+             }
+   
+             if (first, second, operator==="*") {
+             let element_result = document.querySelector (".result");
+             element_result.innerHTML = first*second
+             }
+   
+             if (first, second, operator==="/") {
+             let element_result = document.querySelector (".result");
+             element_result.innerHTML = first/second
+             }
+             }
+             
+         </script>         
+        
+     </head>
+
+     <body>    
+                           
+         <script>
+                
+             let element_input3 = document.createElement("input");
+             element_input3.classList.add ("operator");
+             document.body.prepend (element_input3);
+             
+             let element_input = document.createElement("input");             
+             element_input.classList.add ("first");
+             document.body.prepend (element_input);
+             element_input.setAttribute("type", "number");
+            
+             let element_input2 = document.createElement("input");
+             element_input2.classList.add ("second");
+             document.body.append (element_input2);
+             element_input2.setAttribute("type", "number");
+
+             let resultDiv = document.createElement("div");
+             resultDiv.classList.add ("result");
+             document.body.append (resultDiv);
+             resultDiv.onclick = calculate;
+
+             let resultDivText = document.createTextNode ("Результат");
+             resultDiv.append (resultDivText);
+            
+         </script>
+
+     </body>
+
+</html>
