@@ -2,6 +2,8 @@
 
      <head>
          
+         <meta charset = "utf-8"/>
+
          <script>
  
              function calculate() {
@@ -35,24 +37,18 @@
              element_result.innerHTML = first/second
              }
              }
-             
-         </script>         
-        
-     </head>
-
-     <body>    
-                           
-         <script>
-                
-             let element_input3 = document.createElement("input");
-             element_input3.classList.add ("operator");
-             document.body.prepend (element_input3);
-             
+                                   
+             function ready() {
+                          
              let element_input = document.createElement("input");             
              element_input.classList.add ("first");
-             document.body.prepend (element_input);
+             document.body.append (element_input);
              element_input.setAttribute("type", "number");
             
+             let element_input3 = document.createElement("input");
+             element_input3.classList.add ("operator");
+             document.body.append (element_input3);
+
              let element_input2 = document.createElement("input");
              element_input2.classList.add ("second");
              document.body.append (element_input2);
@@ -65,9 +61,16 @@
 
              let resultDivText = document.createTextNode ("Результат");
              resultDiv.append (resultDivText);
-            
-         </script>
+            }
 
+             document.addEventListener("DOMContentLoaded", ready);
+             
+         </script>         
+        
+     </head>
+
+     <body>    
+                           
      </body>
 
 </html>
