@@ -1,76 +1,80 @@
- <html>
+<html>
 
-     <head>
-         
-         <meta charset = "utf-8"/>
+<head>
 
-         <script>
- 
-             function calculate() {
-                
-             let element_input = document.querySelector (".first");
-             let first = +element_input.value
-            
-             let element_input2 = document.querySelector (".second");
-             let second = +element_input2.value
-   
-             let element_input3 = document.querySelector (".operator");
-             let operator = element_input3.value
-   
-             if (first, second, operator==="+") {
-             let element_result = document.querySelector (".result");
-             element_result.innerHTML = +first+second
-             }
-   
-             if (first, second, operator==="-") {
-             let element_result = document.querySelector (".result");
-             element_result.innerHTML = first-second
-             }
-   
-             if (first, second, operator==="*") {
-             let element_result = document.querySelector (".result");
-             element_result.innerHTML = first*second
-             }
-   
-             if (first, second, operator==="/") {
-             let element_result = document.querySelector (".result");
-             element_result.innerHTML = first/second
-             }
-             }
-                                   
-             function ready() {
-                          
-             let element_input = document.createElement("input");             
-             element_input.classList.add ("first");
-             document.body.append (element_input);
-             element_input.setAttribute("type", "number");
-            
-             let element_input3 = document.createElement("input");
-             element_input3.classList.add ("operator");
-             document.body.append (element_input3);
+    <meta charset="utf-8" />
 
-             let element_input2 = document.createElement("input");
-             element_input2.classList.add ("second");
-             document.body.append (element_input2);
-             element_input2.setAttribute("type", "number");
+    <script>
 
-             let resultDiv = document.createElement("div");
-             resultDiv.classList.add ("result");
-             document.body.append (resultDiv);
-             resultDiv.onclick = calculate;
+        function calculate() {
 
-             let resultDivText = document.createTextNode ("Результат");
-             resultDiv.append (resultDivText);
+            let element_input = document.querySelector(".first");
+            let first = +element_input.value
+
+            let element_input2 = document.querySelector(".second");
+            let second = +element_input2.value
+
+            let element_input3 = document.querySelector(".operator");
+            let operator = element_input3.value
+
+            let element_result = document.querySelector(".result");
+            if (first, second, operator === "+") {
+            element_result.innerHTML = +first + second
             }
 
-             document.addEventListener("DOMContentLoaded", ready);
-             
-         </script>         
-        
-     </head>
+            if (first, second, operator === "-") {
+            element_result.innerHTML = first - second
+            }
 
-     <body>    
-                           
-     </body>
+            if (first, second, operator === "*") {
+            element_result.innerHTML = first * second
+            }
+
+            if (first, second, operator === "/") {
+            element_result.innerHTML = first / second
+            }
+        }
+
+        function ready() {
+
+            let element_input = document.createElement("input");
+            element_input.classList.add("first");
+            document.body.append(element_input);
+            element_input.setAttribute("type", "number");
+
+            let element_input3 = document.createElement("input");
+            element_input3.classList.add("operator");
+            document.body.append(element_input3);
+
+            let element_input2 = document.createElement("input");
+            element_input2.classList.add("second");
+            document.body.append(element_input2);
+            element_input2.setAttribute("type", "number");
+
+            let resultDiv = document.createElement("div");
+            resultDiv.classList.add("result");
+            document.body.append(resultDiv);
+            resultDiv.onclick = calculate;
+
+            let resultDivText = document.createTextNode("Результат");
+            resultDiv.append(resultDivText);
+
+            let element_btn = document.createElement("button")
+            element_btn.innerHTML = "Рассчитать";
+            element_btn.onclick = function () {
+            calculate()
+            };
+            document.body.append(element_btn);
+        }
+
+        document.addEventListener("DOMContentLoaded", ready);
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
 
 </html>
