@@ -1,0 +1,303 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 60 px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background: #0EA5E9;
+    color: white;
+}
+
+.formName {
+    position: absolute;
+    width: 40px;
+    height: 19px;
+    left: 380px;
+    top: 335px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0EA5E9;
+}
+
+.formEmail {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 200px;
+    top: 401px;
+
+    border: 1px solid #0EA5E9;
+}
+
+.formName2 {
+    position: absolute;
+    width: 48px;
+    height: 19px;
+    left: 200px;
+    top: 457px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0EA5E9;
+}
+
+.formPassword {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 200px;
+    top: 496px;
+
+    border: 1px solid #0EA5E9;
+}
+
+.formName3 {
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 200px;
+    top: 552px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0EA5E9;
+}
+
+.logbutton {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 300px;
+    top: 591px;
+
+    background: #0EA5E9;
+    border: 1px solid #0EA5E9;
+    border-radius: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+
+.registrbutton {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 300px;
+    top: 648px;
+
+    background: #0EA5E9;
+    border: 1px solid #0EA5E9;
+    border-radius: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.formName4 {
+    position: absolute;
+    width: 105px;
+    height: 19px;
+    left: 347px;
+    top: 255px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0EA5E9;
+}
+
+.formEmail2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 200px;
+    top: 321px;
+
+    border: 1px solid #0EA5E9;
+}
+
+.formName5 {
+    position: absolute;
+    width: 48px;
+    height: 19px;
+    left: 200px;
+    top: 377px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0EA5E9;
+}
+
+.formTeleph {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 200px;
+    top: 416px;
+
+    border: 1px solid #0EA5E9;
+}
+
+.formName6 {
+    position: absolute;
+    width: 67px;
+    height: 19px;
+    left: 200px;
+    top: 472px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0EA5E9;
+}
+
+.formPassword2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 200px;
+    top: 511px;
+
+    border: 1px solid #0EA5E9;
+}
+
+.formName7 {
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 200px;
+    top: 567px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0EA5E9;
+}
+
+.formConfirmPassword {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 200px;
+    top: 606px;
+
+    border: 1px solid #0EA5E9;
+}
+
+.formName8 {
+    position: absolute;
+    width: 189px;
+    height: 19px;
+    left: 200px;
+    top: 662px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0EA5E9;
+}
+
+.formLoginbutton {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 300px;
+    top: 784px;
+
+    background: #0EA5E9;
+    border: 1px solid #0EA5E9;
+    border-radius: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.formregbutton {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 300px;
+    top: 728px;
+
+    background: #0EA5E9;
+    border: 1px solid #0EA5E9;
+    border-radius: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
