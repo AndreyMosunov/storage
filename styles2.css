@@ -17,8 +17,10 @@ body {
     position: absolute;
     width: 40px;
     height: 19px;
-    left: 380px;
-    top: 335px;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -80px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -35,8 +37,10 @@ body {
     position: absolute;
     width: 400px;
     height: 48px;
-    left: 200px;
-    top: 401px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: 0px;
 
     border: 1px solid #0EA5E9;
 }
@@ -45,8 +49,10 @@ body {
     position: absolute;
     width: 48px;
     height: 19px;
-    left: 200px;
-    top: 457px;
+    left: 50%;
+    top: 50%;
+    margin-left: -24px;
+    margin-top: 50px;
 
     font-family: 'Inter';
     font-style: italic;
@@ -63,8 +69,10 @@ body {
     position: absolute;
     width: 400px;
     height: 48px;
-    left: 200px;
-    top: 496px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: 85px;
 
     border: 1px solid #0EA5E9;
 }
@@ -73,8 +81,10 @@ body {
     position: absolute;
     width: 59px;
     height: 19px;
-    left: 200px;
-    top: 552px;
+    left: 50%;
+    top: 50%;
+    margin-left: -29px;
+    margin-top: 135px;
 
     font-family: 'Inter';
     font-style: italic;
@@ -91,8 +101,10 @@ body {
     position: absolute;
     width: 200px;
     height: 36px;
-    left: 300px;
-    top: 591px;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: 180px;
 
     background: #0EA5E9;
     border: 1px solid #0EA5E9;
@@ -114,8 +126,10 @@ body {
     position: absolute;
     width: 200px;
     height: 36px;
-    left: 300px;
-    top: 648px;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: 230px;
 
     background: #0EA5E9;
     border: 1px solid #0EA5E9;
@@ -134,8 +148,10 @@ body {
     position: absolute;
     width: 105px;
     height: 19px;
-    left: 347px;
-    top: 255px;
+    left: 50%;
+    top: 50%;
+    margin-left: -53px;
+    margin-top: -160px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -152,8 +168,10 @@ body {
     position: absolute;
     width: 400px;
     height: 48px;
-    left: 200px;
-    top: 321px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -70px;
 
     border: 1px solid #0EA5E9;
 }
@@ -162,8 +180,10 @@ body {
     position: absolute;
     width: 48px;
     height: 19px;
-    left: 200px;
-    top: 377px;
+    left: 50%;
+    top: 50%;
+    margin-left: -24px;
+    margin-top: -20px;
 
     font-family: 'Inter';
     font-style: italic;
@@ -180,8 +200,10 @@ body {
     position: absolute;
     width: 400px;
     height: 48px;
-    left: 200px;
-    top: 416px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: 20px;
 
     border: 1px solid #0EA5E9;
 }
@@ -190,8 +212,10 @@ body {
     position: absolute;
     width: 67px;
     height: 19px;
-    left: 200px;
-    top: 472px;
+    left: 50%;
+    top: 50%;
+    margin-left: -34px;
+    margin-top: 75px;
 
     font-family: 'Inter';
     font-style: italic;
@@ -208,8 +232,10 @@ body {
     position: absolute;
     width: 400px;
     height: 48px;
-    left: 200px;
-    top: 511px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: 110px;
 
     border: 1px solid #0EA5E9;
 }
@@ -218,8 +244,10 @@ body {
     position: absolute;
     width: 59px;
     height: 19px;
-    left: 200px;
-    top: 567px;
+    left: 50%;
+    top: 50%;
+    margin-left: -29px;
+    margin-top: 165px;
 
     font-family: 'Inter';
     font-style: italic;
@@ -236,8 +264,10 @@ body {
     position: absolute;
     width: 400px;
     height: 48px;
-    left: 200px;
-    top: 606px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: 200px;
 
     border: 1px solid #0EA5E9;
 }
@@ -246,8 +276,10 @@ body {
     position: absolute;
     width: 189px;
     height: 19px;
-    left: 200px;
-    top: 662px;
+    left: 50%;
+    top: 50%;
+    margin-left: -95px;
+    margin-top: 255px;
 
     font-family: 'Inter';
     font-style: italic;
@@ -264,8 +296,10 @@ body {
     position: absolute;
     width: 200px;
     height: 36px;
-    left: 300px;
-    top: 784px;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: 310px;
 
     background: #0EA5E9;
     border: 1px solid #0EA5E9;
@@ -286,8 +320,10 @@ body {
     position: absolute;
     width: 200px;
     height: 36px;
-    left: 300px;
-    top: 728px;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: 360px;
 
     background: #0EA5E9;
     border: 1px solid #0EA5E9;
@@ -300,4 +336,353 @@ body {
     line-height: 19px;
 
     color: #FFFFFF;
+}
+
+.formName9 {
+    position: absolute;
+    width: 489px;
+    height: 77px;
+    left: 184px;
+    top: 102px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.formName10 {
+    position: absolute;
+    width: 113px;
+    height: 29px;
+    left: 673px;
+    top: 102px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-align: right;
+
+    color: #000000;
+
+}
+
+.contactsbutton {
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 20px;
+    top: 263px;
+
+    background: #0EA5E9;
+    border: 1px solid #0EA5E9;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+
+}
+
+.img {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 102px;
+
+    border: 1px solid #000000;
+
+}
+
+.formName11 {
+    position: absolute;
+    width: 489px;
+    height: 15px;
+    left: 184px;
+    top: 271px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.formName12 {
+    position: absolute;
+    width: 489px;
+    height: 77px;
+    left: 184px;
+    top: 352px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.formName13 {
+    position: absolute;
+    width: 113px;
+    height: 29px;
+    left: 673px;
+    top: 352px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.formcontactsbutton2 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 20px;
+    top: 513px;
+
+    background: #0EA5E9;
+    border: 1px solid #0EA5E9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+
+}
+
+.formName14 {
+    position: absolute;
+    width: 489px;
+    height: 15px;
+    left: 184px;
+    top: 521px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.img2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 352px;
+
+    border: 1px solid #000000;
+}
+
+.formName15 {
+    position: absolute;
+    width: 489px;
+    height: 77px;
+    left: 184px;
+    top: 599px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.formName16 {
+    position: absolute;
+    width: 113px;
+    height: 29px;
+    left: 673px;
+    top: 599px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-align: right;
+
+    color: #000000;
+
+
+
+}
+
+.formcontactsbutton3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 20px;
+    top: 760px;
+
+    background: #0EA5E9;
+    border: 1px solid #0EA5E9;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.img3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 599px;
+
+    border: 1px solid #000000;
+}
+
+.formName17 {
+    position: absolute;
+    width: 489px;
+    height: 15px;
+    left: 184px;
+    top: 768px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+
+
+}
+
+.formName18 {
+    position: absolute;
+    width: 489px;
+    height: 77px;
+    left: 184px;
+    top: 846px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.formName19 {
+    position: absolute;
+    width: 113px;
+    height: 29px;
+    left: 673px;
+    top: 846px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-align: right;
+
+    color: #000000;
+
+
+
+}
+
+.formcontactsbutton4 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 20px;
+    top: 1007px;
+
+    background: #0EA5E9;
+    border: 1px solid #0EA5E9;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.img4 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 846px;
+
+    border: 1px solid #000000;
+}
+
+.formName20 {
+
+    position: absolute;
+    width: 489px;
+    height: 15px;
+    left: 184px;
+    top: 1015px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
 }
