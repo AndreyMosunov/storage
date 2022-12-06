@@ -48,7 +48,7 @@
     function create_button_contacts() {
         let contactsbutton = document.createElement("button");
         contactsbutton.append(document.createTextNode("Показать телефон"));
-        contactsbutton.classList.add("contactsbutton");
+        contactsbutton.classList.add("formcontactsbutton");
         return contactsbutton;
     }
 
@@ -143,19 +143,19 @@
     }
 
     function ShowTelephonNumber() {
-        document.querySelector(".contactsbutton").innerText = "+79050086241";
+        document.querySelector(".formcontactsbutton").innerText = "+79050086241";
     }
 
     function ShowTelephonNumber2() {
-        document.querySelector(".contactsbutton2").innerText = "+79050086241";
+        document.querySelector(".formcontactsbutton2").innerText = "+79050086241";
     }
 
     function ShowTelephonNumber3() {
-        document.querySelector(".contactsbutton3").innerText = "+79050086241";
+        document.querySelector(".formcontactsbutton3").innerText = "+79050086241";
     }
 
     function ShowTelephonNumber4() {
-        document.querySelector(".contactsbutton4").innerText = "+79050086241";
+        document.querySelector(".formcontactsbutton4").innerText = "+79050086241";
     }
 
 
