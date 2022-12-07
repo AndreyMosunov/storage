@@ -4,13 +4,28 @@ body {
 }
 
 .header {
-    height: 60 px;
+    height: 60px;
     line-height: 60px;
     padding-left: 20px;
     padding-right: 20px;
+    width: 800px;
 
     background: #0EA5E9;
     color: white;
+}
+
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .header
+    {   height: 60px;
+        line-height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 800px;
+
+        background: #0EA5E9;
+        color: white; 
+                         
+    }
 }
 
 .formName {
@@ -342,8 +357,8 @@ body {
     position: absolute;
     width: 489px;
     height: 77px;
-    left: 184px;
-    top: 102px;
+    margin-left: 184px;
+    margin-top: 40px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -354,12 +369,20 @@ body {
     color: #000000;
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName9
+    {margin-left: 20px;
+     margin-top: 230px;   
+     width: 800px;                    
+    }
+}
+
 .formName10 {
     position: absolute;
     width: 113px;
     height: 29px;
-    left: 673px;
-    top: 102px;
+    margin-left: 673px;
+    margin-top: 50px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -370,7 +393,13 @@ body {
     text-align: right;
 
     color: #000000;
+}
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName10
+    {margin-left: 10px;
+     margin-top: 340px;                       
+    }
 }
 
 .formcontactsbutton {
@@ -380,8 +409,8 @@ body {
     position: absolute;
     width: 150px;
     height: 30px;
-    left: 20px;
-    top: 263px;
+    margin-left: 20px;
+    margin-top: 210px;
 
     background: #0EA5E9;
     border: 1px solid #0EA5E9;
@@ -396,25 +425,43 @@ body {
 
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formcontactsbutton
+
+    { margin-left: 340px;
+      margin-top: 190px;
+    }
+     
+}
+
 .img {
     box-sizing: border-box;
 
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 20px;
-    top: 102px;
+    margin-left: 20px;
+    margin-top: 40px;
 
     border: 1px solid #000000;
 
+}
+
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .img
+
+    { margin-left: 340px;
+      margin-top: 20px;
+    }
+     
 }
 
 .formName11 {
     position: absolute;
     width: 489px;
     height: 15px;
-    left: 184px;
-    top: 271px;
+    margin-left: 184px;
+    margin-top: 220px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -425,12 +472,19 @@ body {
     color: #000000;
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName11
+    {margin-left: 20px;
+     margin-top: 380px;                       
+    }
+}
+
 .formName12 {
     position: absolute;
     width: 489px;
     height: 77px;
-    left: 184px;
-    top: 352px;
+    margin-left: 184px;
+    margin-top: 290px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -441,12 +495,20 @@ body {
     color: #000000;
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName12
+    {margin-left: 20px;
+     margin-top: 610px;  
+     width: 800px;                    
+    }
+}
+
 .formName13 {
     position: absolute;
     width: 113px;
     height: 29px;
-    left: 673px;
-    top: 352px;
+    margin-left: 673px;
+    margin-top: 300px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -456,6 +518,13 @@ body {
     text-align: right;
 
     color: #000000;
+}
+
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName13
+    {margin-left: 10px;
+     margin-top: 720px;                       
+    }
 }
 
 .formcontactsbutton2 {
@@ -465,8 +534,8 @@ body {
     position: absolute;
     width: 150px;
     height: 30px;
-    left: 20px;
-    top: 513px;
+    margin-left: 20px;
+    margin-top: 460px;
 
     background: #0EA5E9;
     border: 1px solid #0EA5E9;
@@ -480,12 +549,20 @@ body {
 
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formcontactsbutton2
+    {margin-left: 340px;
+     margin-top: 570px;                       
+    }
+}
+
+
 .formName14 {
     position: absolute;
     width: 489px;
     height: 15px;
-    left: 184px;
-    top: 521px;
+    margin-left: 184px;
+    margin-top: 470px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -494,6 +571,13 @@ body {
     line-height: 15px;
 
     color: #000000;
+}
+
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName14
+    {margin-left: 20px;
+     margin-top: 760px;                       
+    }
 }
 
 .img2 {
@@ -502,18 +586,26 @@ body {
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 20px;
-    top: 352px;
+    margin-left: 20px;
+    margin-top: 290px;
 
     border: 1px solid #000000;
 }
+
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .img2
+    {margin-left: 340px;
+     margin-top: 400px;                       
+    }
+}
+
 
 .formName15 {
     position: absolute;
     width: 489px;
     height: 77px;
-    left: 184px;
-    top: 599px;
+    margin-left: 184px;
+    margin-top: 530px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -524,12 +616,21 @@ body {
     color: #000000;
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName15
+    {margin-left: 20px;
+     margin-top: 1000px;   
+     width: 800px;                    
+    }
+}
+
+
 .formName16 {
     position: absolute;
     width: 113px;
     height: 29px;
-    left: 673px;
-    top: 599px;
+    margin-left: 673px;
+    margin-top: 540px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -540,9 +641,13 @@ body {
     text-align: right;
 
     color: #000000;
+}
 
-
-
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName16
+    {margin-left: 10px;
+     margin-top: 1100px;                       
+    }
 }
 
 .formcontactsbutton3 {
@@ -551,8 +656,8 @@ body {
     position: absolute;
     width: 150px;
     height: 30px;
-    left: 20px;
-    top: 760px;
+    margin-left: 20px;
+    margin-top: 700px;
 
     background: #0EA5E9;
     border: 1px solid #0EA5E9;
@@ -566,24 +671,38 @@ body {
     color: #FFFFFF;
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formcontactsbutton3
+    {margin-left: 340px;
+     margin-top: 960px;                       
+    }
+}
+
 .img3 {
     box-sizing: border-box;
 
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 20px;
-    top: 599px;
+    margin-left: 20px;
+    margin-top: 530px;
 
     border: 1px solid #000000;
+}
+
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .img3
+    {margin-left: 340px;
+     margin-top: 790px;                       
+    }
 }
 
 .formName17 {
     position: absolute;
     width: 489px;
     height: 15px;
-    left: 184px;
-    top: 768px;
+    margin-left: 184px;
+    margin-top: 710px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -594,12 +713,19 @@ body {
     color: #000000;
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName17
+    {margin-left: 20px;
+     margin-top: 1140px;  
+     
+    }
+}
 .formName18 {
     position: absolute;
     width: 489px;
     height: 77px;
-    left: 184px;
-    top: 846px;
+    margin-left: 184px;
+    margin-top: 780px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -610,12 +736,20 @@ body {
     color: #000000;
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName18
+    {margin-left: 20px;
+     margin-top: 1410px;  
+     width: 800px;                        
+    }
+}
+
 .formName19 {
     position: absolute;
     width: 113px;
     height: 29px;
-    left: 673px;
-    top: 846px;
+    margin-left: 673px;
+    margin-top: 790px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -626,19 +760,22 @@ body {
     text-align: right;
 
     color: #000000;
-
-
-
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName19
+    {margin-left: 10px;
+     margin-top: 1500px;                           
+    }
+}
 .formcontactsbutton4 {
     box-sizing: border-box;
 
     position: absolute;
     width: 150px;
     height: 30px;
-    left: 20px;
-    top: 1007px;
+    margin-left: 20px;
+    margin-top: 950px;
 
     background: #0EA5E9;
     border: 1px solid #0EA5E9;
@@ -652,16 +789,31 @@ body {
     color: #FFFFFF;
 }
 
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formcontactsbutton4
+    {margin-left: 340px;
+     margin-top: 1360px;                       
+    }
+}
+
 .img4 {
+
     box-sizing: border-box;
 
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 20px;
-    top: 846px;
+    margin-left: 20px;
+    margin-top: 780px;
 
     border: 1px solid #000000;
+}
+
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .img4
+    {margin-left: 340px;
+     margin-top: 1190px;                       
+    }
 }
 
 .formName20 {
@@ -669,8 +821,8 @@ body {
     position: absolute;
     width: 489px;
     height: 15px;
-    left: 184px;
-    top: 1015px;
+    margin-left: 184px;
+    margin-top: 960px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -679,4 +831,11 @@ body {
     line-height: 15px;
 
     color: #000000;
+}
+
+@media only screen and (max-width: 390px) {/*iphone 12 pro*/
+    .formName20
+    {margin-left: 20px;
+     margin-top: 1540px;                       
+    }
 }
