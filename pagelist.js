@@ -158,7 +158,6 @@
         document.querySelector(".formcontactsbutton4").innerText = "+79050086241";
     }
 
-
 })(AdsBoard);
 
 
