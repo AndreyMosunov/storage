@@ -1,17 +1,17 @@
 (function (app) {
-    app.CreatePage = {
+    app.Adds = {
         draw: function () {
 
             CreatePage();
 
-            async function CreatePage() {
-                let response = await fetch("user.php");
-                let users = await response.json();
-
-                for (let key in users) {
-                    let user = users[key];
-                    createuserblock(user.name, user.teleph_num);
-                }
+            function CreatePage() {
+                fetch("users.php")
+                    .then(response => response.json())
+                    .then(function (response) {
+                        for (let i = 0; i < response.length; i++) {
+                            createuserblock(response[i].name, response[i].teleph_num);
+                        }
+                    });
             }
 
             function createuserblock(name, teleph_num) {
@@ -51,7 +51,7 @@
                 teleph_numBlock4.classList.add("formcontactsbutton4");
                 teleph_numBlock4.append(teleph_numText);
 
-                document.querySelector(".users").append(NameBlock, NameBlock2, NameBlock3, NameBlock4, teleph_numBlock, teleph_numBlock2, teleph_numBlock3, teleph_numBlock4);
+                document.querySelector(".adds").append(NameBlock, NameBlock2, NameBlock3, NameBlock4, teleph_numBlock, teleph_numBlock2, teleph_numBlock3, teleph_numBlock4);
 
                 teleph_numBlock.addEventListener("click", ShowTelephonNumber);
                 teleph_numBlock2.addEventListener("click", ShowTelephonNumber2);
