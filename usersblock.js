@@ -5,7 +5,7 @@
             CreatePage();
 
             function CreatePage() {
-                fetch("users.php")
+                fetch("adds.php")
                     .then(response => response.json())
                     .then(function (response) {
                         for (let i = 0; i < response.length; i++) {
