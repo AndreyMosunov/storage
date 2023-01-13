@@ -92,9 +92,7 @@
                         document.getElementById(".result").innerHTML = text;
                     }
                 );
-
             }
-
         }
     }
 }
