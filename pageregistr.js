@@ -10,6 +10,7 @@
 
             let name = document.createElement("input");
             name.setAttribute('type', 'text');
+            name.setAttribute('id', 'name');
             name.classList.add("formFIO");
 
             let NameText = document.createElement("div");
@@ -20,6 +21,7 @@
 
             let email = document.createElement("input");
             email.setAttribute('type', 'text');
+            email.setAttribute('id', 'email');
             email.classList.add("formEmail2");
 
             let emailText = document.createElement("div");
@@ -30,6 +32,7 @@
 
             let telephon_num = document.createElement("input");
             telephon_num.setAttribute('type', 'text');
+            telephon_num.setAttribute('id', 'telephon_num');
             telephon_num.classList.add("formTeleph");
 
             let telephText = document.createElement("div");
@@ -40,6 +43,7 @@
 
             let password = document.createElement("input");
             password.setAttribute('type', 'text');
+            password.setAttribute('id', 'password');
             password.classList.add("formPassword2");
 
             let passText = document.createElement("div");
@@ -50,6 +54,7 @@
 
             let confirmpassword = document.createElement("input");
             confirmpassword.setAttribute('type', 'text');
+            confirmpassword.setAttribute('id', 'confirmpassword');
             confirmpassword.classList.add("formConfirmPassword");
 
             let confirmPassText = document.createElement("div");
@@ -89,8 +94,9 @@
                     }
                 ).then(
                     text => {
+                        window.onload = function(){
                         document.getElementById(".result").innerHTML = text;
-                    }
+                    }}
                 );
 
             }
