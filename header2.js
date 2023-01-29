@@ -9,8 +9,9 @@
             let anchor1 = create_anchor_list();
             let anchor2 = create_anchor_list2();
             let anchor3 = create_anchor_list3();
+            let anchor = create_anchor_list();
             
-            header.append(anchor1, anchor2, anchor3);
+            header.append(anchor1, anchor2, anchor3, anchor);
         }
     }
 
@@ -26,7 +27,7 @@
             let anchor2 = document.createElement("A");
             anchor2.append(document.createTextNode("Мои объявления"));
             anchor2.classList.add("formAnchor2");
-            anchor2.setAttribute("href", "https://localhost:8080/mysite/files/adds.html");
+            anchor2.setAttribute("href", "http://localhost:8080/mysite/files/adds.html");
             return anchor2;
         }
     
@@ -34,8 +35,16 @@
             let anchor3 = document.createElement("A");
             anchor3.append(document.createTextNode("Выход"));
             anchor3.classList.add("formAnchor3");
-            anchor3.setAttribute("href", "https://");
+            anchor3.setAttribute("href", "http://");
             return anchor3;
+        }
+
+        function create_anchor_list () {
+            let anchor = document.createElement("A");
+            anchor.append(document.createTextNode("Добавить объявление"));
+            anchor.classList.add("formAnchor");
+            anchor.setAttribute("href", "http://localhost:8080/mysite/files/createadds.html");
+            return anchor;
         }
 
      }

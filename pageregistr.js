@@ -72,6 +72,7 @@
 
             send();
             function send() {
+                
                 let name = document.getElementById('name').value;
                 let email = document.getElementById('email').value;
                 let telephon_num = document.getElementById('telephon_num').value;
@@ -85,10 +86,7 @@
                 params.set('password', password);
                 params.set('confirmpassword', confirmpassword);
 
-                fetch("pageregistr.php", {
-                    method: 'POST',
-                    body: params
-                }).then(
+                fetch("pageregistr.php").then(
                     response => {
                         return response.text();
                     }
