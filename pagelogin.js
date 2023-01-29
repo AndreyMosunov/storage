@@ -1,6 +1,7 @@
 (function (app) {
     app.PageLogin = {
-        draw: function () {
+        draw: function () 
+        {
 
             let text = document.createElement("div");
             text.append(document.createTextNode("Вход"));
